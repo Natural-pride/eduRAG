@@ -1,0 +1,185 @@
+# ============================================================
+# Python 字节码 / 缓存
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ============================================================
+# 虚拟环境
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+.env.bak/
+.venv.bak/
+
+# ============================================================
+# 包分发 / 构建产物
+# ============================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheelhouse/
+
+# ============================================================
+# 测试 / 覆盖率 / 静态分析
+# ============================================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ============================================================
+# 日志文件
+# ============================================================
+*.log
+logs/
+log/
+
+# ============================================================
+# 模型 / 向量数据 / 知识库（体积大，不进版本控制）
+# ============================================================
+models/
+model/
+embeddings/
+vectors/
+milvus_data/
+data/
+datasets/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.ggml
+*.h5
+*.pb
+*.weights
+checkpoints/
+tokenizer/
+sentence_transformers/
+
+# ============================================================
+# 上传文件 / 用户生成内容
+# ============================================================
+uploads/
+upload/
+static/uploads/
+media/
+files/
+knowledge_base/docs/
+knowledge_base/raw/
+
+# ============================================================
+# 环境变量 / 密钥 / 本地配置（含敏感信息）
+# ============================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+*.pem
+*.key
+*.cert
+secrets.yaml
+secrets.json
+
+# ============================================================
+# IDE / 编辑器
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vs/
+
+# ============================================================
+# 操作系统
+# ============================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================
+# 项目特定
+# ============================================================
+# 本地运行配置（含数据库密码、API Key 等敏感信息）
+config.ini
+config.local.ini
+local_config.ini
+# 临时 / 调试文件
+tmp/
+temp/
+tmp_*
+debug/
+debug_*.py
